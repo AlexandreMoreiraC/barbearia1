@@ -20,7 +20,7 @@ export default function Contact() {
       viewport={{ once: false, amount: 0.3 }}
       transition={{ duration: 0.7 }}
     >
-      <h1>Contato</h1>
+      <h1>Onde nos Encontrar</h1>
 
       <motion.div
         className="contact-container"
@@ -37,27 +37,6 @@ export default function Contact() {
             referrerPolicy="no-referrer-when-downgrade"
             style={{ border: 0, width: "100%", height: "400px" }}
           />
-        </motion.div>
-
-        {/* WhatsApp */}
-        <motion.div className="whatsapp-container" custom={2} variants={itemVariants}>
-          <a href="https://wa.me/5511999999999" target="_blank" rel="noreferrer">
-            <motion.img
-              src="https://res.cloudinary.com/dliyfpqqu/image/upload/v1754937434/vpr1plvrjwtdd0n3frs1.jpg"
-              alt="WhatsApp"
-              whileHover={{ scale: 1.05, boxShadow: "0 4px 12px rgba(0,0,0,0.3)" }}
-              transition={{ type: "spring", stiffness: 300 }}
-              style={{
-                width: "400px",
-                height: "auto",
-                cursor: "pointer",
-                objectFit: "contain",
-                borderRadius: "12px",
-                boxShadow: "0 2px 8px rgb(0 0 0 / 0.15)",
-                display: "flex",
-              }}
-            />
-          </a>
         </motion.div>
       </motion.div>
     </motion.section>
