@@ -19,7 +19,7 @@ export default function About() {
       className="about"
       initial="hidden"
       whileInView="visible"
-      viewport={{ once: false, amount: 0.3 }} // anima toda vez que entrar (pra cima ou pra baixo)
+      viewport={{ once: false, amount: 0.3 }}
       style={{ overflow: "hidden" }}
     >
       <div className="container about-container" style={{ display: "flex", gap: "2rem", alignItems: "center" }}>

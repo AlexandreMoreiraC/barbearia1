@@ -21,8 +21,14 @@ export default function Hero() {
             </p>
             <div className="hero-actions">
               <a href="#services" className="btn-primary">Serviços</a>
-              <a href="#contact" className="btn-ghost">Agendar</a>
-            </div>
+<a 
+  href="https://wa.me/35199999999" 
+  target="_blank" 
+  rel="noopener noreferrer" 
+  className="btn-ghost"
+>
+  Agendar
+</a>            </div>
           </motion.div>
 
           <motion.div
@@ -36,7 +42,7 @@ export default function Hero() {
               <h4>Horário</h4>
               <p>Seg — Sex: 09:00 — 20:00</p>
               <p>Sáb: 09:00 — 16:00</p>
-              <a href="#contact" className="btn-ghost small">Reservar agora</a>
+              <a href="#contact" className="btn-ghost small">Onde nos encontrar</a>
             </div>
           </motion.div>
         </div>
